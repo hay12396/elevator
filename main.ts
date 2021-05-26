@@ -6,7 +6,7 @@ const main = (b: IBuilding) => {
   //start:
 
   //level 1 - only elevators configured - is just going finding the right elevator by the distance
-  console.log(b.goToFloor(0, 5));
+  console.log("Elevator id:", b.goToFloor(0, 5).id);
 
   //level 2 - elevators and people configured (5-10 people) - running until all are in their destinations
   //dequeue all from the building queue and put into stopsAt (through Pick) of elevators (by distance)
