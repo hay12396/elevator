@@ -1,0 +1,14 @@
+{
+  "name": "elevator",
+  "version": "1.0.0",
+  "description": "elevator task",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "prestart": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "node ./dist/main.js"
+  },
+  "author": "Hay Zohar",
+  "license": "ISC"
+}
